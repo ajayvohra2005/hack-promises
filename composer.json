@@ -1,0 +1,45 @@
+{
+    "name": "ajayvohra2005/hack-promises",
+    "type": "library",
+    "description": "Promises/A+ implementation in Hack language",
+    "keywords": ["promises","hack","hacklang"],
+    "homepage": "https://github.com/ajayvohra2005/hack-promises.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ajay Vohra",
+            "email": "ajay.vohra2000@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Graham Campbell",
+            "email": "hello@gjcampbell.co.uk",
+            "homepage": "https://github.com/GrahamCampbell"
+        },
+        {
+            "name": "Michael Dowling",
+            "email": "mtdowling@gmail.com",
+            "homepage": "https://github.com/mtdowling"
+        },
+        {
+            "name": "Tobias Nyholm",
+            "email": "tobias.nyholm@gmail.com",
+            "homepage": "https://github.com/Nyholm"
+        },
+        {
+            "name": "Tobias Schultze",
+            "email": "webmaster@tubo-world.de",
+            "homepage": "https://github.com/Tobion"
+        }
+    ],
+
+    "require": {
+        "hhvm": "^4.128",
+        "hhvm/hhvm-autoload": "^3.3"
+    },
+    "require-dev": {
+        "hhvm/hhast": "^4.123",
+        "hhvm/hacktest": "^2.2",
+        "facebook/fbexpect": "^2.8"
+    }
+}
